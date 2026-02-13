@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.backend{
+  text-align: center;
+}
+
+/* Main Container */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+}
+
+/* Section Headings */
+.section-title {
+  margin-bottom: 15px;
+  color: #333;
+  border-left: 5px solid #007bff;
+  padding-left: 10px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Card Base */
+.card {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Student Card */
+.student-card {
+  border-top: 4px solid #28a745;
+}
+
+/* Course Card */
+.course-card {
+  border-top: 4px solid #ff9800;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Divider */
+.divider {
+  margin: 40px 0;
+  border: none;
+  height: 1px;
+  background: #ddd;
+}

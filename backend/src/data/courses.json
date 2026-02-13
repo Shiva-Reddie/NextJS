@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Computer Science",
+    "duration": "4 Years"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical",
+    "duration": "4 Years"
+  }
+]
