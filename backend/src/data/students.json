@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Shiva",
-    "age": 2425,
+    "age": 25,
     "courseId": 1
   },
   {
@@ -10,5 +10,59 @@
     "name": "Teja",
     "age": 25,
     "courseId": 2
+  },
+  {
+    "id": 3,
+    "name": "Reddy",
+    "age": 25,
+    "courseId": 3
+  },
+  {
+    "id": 4,
+    "name": "Shiva Reddy",
+    "age": 25,
+    "courseId": 4
+  },
+  {
+    "id": 5,
+    "name": "Shiva Teja",
+    "age": 25,
+    "courseId": 5
+  },
+  {
+    "id": 6,
+    "name": "Teja Reddy",
+    "age": 25,
+    "courseId": 6
+  },
+  {
+    "id": 7,
+    "name": "test",
+    "age": 12,
+    "courseId": 1
+  },
+  {
+    "id": 8,
+    "name": "Naveen",
+    "age": 33,
+    "courseId": 1
+  },
+  {
+    "id": 9,
+    "name": "ss",
+    "age": 212,
+    "courseId": 1
+  },
+  {
+    "id": 10,
+    "name": "ss",
+    "age": 323,
+    "courseId": 4
+  },
+  {
+    "id": 11,
+    "name": "ss",
+    "age": 44,
+    "courseId": 3
   }
 ]

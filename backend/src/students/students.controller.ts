@@ -1,13 +1,18 @@
-import { Controller, Get } from '@nestjs/common';
-import * as fs from 'fs';
-import * as path from 'path';
+import { Controller, Get, Post, Body } from '@nestjs/common';
+import { StudentsService } from './students.service';
+import { CreateStudentDto } from './dto/create-student.dto';
 
 @Controller('students')
 export class StudentsController {
+  constructor(private readonly studentsService: StudentsService) {}
+
   @Get()
-  getStudents() {
-    const filePath = path.join(process.cwd(), 'src', 'data', 'students.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(data);
+  findAll() {
+    return this.studentsService.findAll();
+  }
+
+  @Post()
+  create(@Body() dto: CreateStudentDto) {
+    return this.studentsService.create(dto);
   }
 }

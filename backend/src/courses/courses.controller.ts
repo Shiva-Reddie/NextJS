@@ -1,13 +1,22 @@
-import { Controller, Get } from '@nestjs/common';
-import * as fs from 'fs';
-import * as path from 'path';
+import { Controller, Get, Post, Body } from '@nestjs/common';
+import { CoursesService } from './courses.service';
+import { CreateCourseDto } from './dto/create-course.dto';
 
 @Controller('courses')
 export class CoursesController {
+
+  constructor(private readonly coursesService: CoursesService) {}
+
+  // GET /courses
   @Get()
   getCourses() {
-const filePath = path.join(process.cwd(), 'src', 'data', 'courses.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
-    return JSON.parse(data);
+    return this.coursesService.getAllCourses();
   }
+
+  // POST /courses
+@Post()
+addCourse(@Body() body: CreateCourseDto) {
+  return this.coursesService.addCourse(body);
+}
+
 }
