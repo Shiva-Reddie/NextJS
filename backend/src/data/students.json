@@ -10,5 +10,17 @@
     "name": "Teja",
     "age": 25,
     "courseId": 2
+  },
+  {
+    "id": 3,
+    "name": "Teja",
+    "age": 25,
+    "courseId": 1
+  },
+  {
+    "id": 4,
+    "name": "Teja",
+    "age": 25,
+    "courseId": 1
   }
 ]
