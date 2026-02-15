@@ -1,12 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Computer Science",
-    "duration": "4 Years"
+    "name": "React",
+    "duration": "3 Months"
   },
   {
     "id": 2,
-    "name": "Mechanical",
-    "duration": "4 Years"
+    "name": "NodeJS",
+    "duration": "2 Months"
+  },
+  {
+    "id": 3,
+    "name": "css",
+    "duration": "3 Months"
+  },
+  {
+    "id": 4,
+    "name": "HTML ",
+    "duration": " Week"
   }
 ]
